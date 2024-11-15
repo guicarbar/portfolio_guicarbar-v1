@@ -1,0 +1,16 @@
+:root {
+    --colorBg1: #19162a;
+    --colorBg2: #3f3c92;
+    --colorBg3: #2d2769;
+    --colorBg4: #55367a;
+    --colorBg5: #545c7c;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../style/img/BG-V.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
