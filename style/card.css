@@ -18,7 +18,7 @@
   margin: 1em;
   padding: 1em;
   background-color: var(--colorBgCard);
-  border-radius: 32px;
+  border-radius: 24px;
 }
 
 .card:first-child {

@@ -18,7 +18,7 @@
 	--colorBg5: #545c7c;
 
 	--colorBgCard: #4e4e4e85;
-	--colorBgCard2: #70707085;
+	--colorBgCard2: #707070cb;
 
 	--colorWhite: #ffffff;
 	--colorBlack: #00030c;
@@ -29,6 +29,8 @@
 	--fontMain: "Space Mono", monospace;
 }
 
+
+/* globals */
 
 /* global values */
 * {
@@ -89,4 +91,10 @@ p {
 /* avatar */
 .avatar_img {
 	border-radius: 50%;
+}
+
+
+/* cv download */
+.resume {
+	background-color: var(--colorBgCard2);
 }
