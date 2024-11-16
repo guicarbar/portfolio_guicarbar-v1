@@ -1,0 +1,41 @@
+/* temporario */
+:root {
+  --colorBg1: #19162a;
+  --colorBg2: #3f3c92;
+  --colorBg3: #2d2769;
+  --colorBg4: #55367a;
+  --colorBg5: #545c7c;
+
+  --colorBgCard: #4e4e4e85;
+
+  --fontTitle: 'Quantico';
+  --fontMain: "Space Mono", monospace;
+}
+
+
+/* global custons for cards */
+.card {
+  margin: 1em;
+  padding: 1em;
+  background-color: var(--colorBgCard);
+  border-radius: 32px;
+}
+
+.card:first-child {
+  margin-top: 3em;
+}
+
+
+/* global cards tittle */
+.card__title {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* global cards contents */
+.card__content {
+  margin-bottom: 1em;
+}
+

@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- style -->
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/main.css">
+	<!-- styles externos-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=lightbulb,north_east,verified" />
 
-    <title>Guilherme Carvalho</title>
+	<!-- style -->
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/reset.css">
+
+	<!-- title of doc --> 
+	<title>Guilherme Carvalho</title>
 </head>
 <body>
-    
+	<main>
+		<!-- init -->
+		<div class="card">
+			<div class="card__title">
+				<span class="material-symbols-outlined" style="font-size: 24px;">lightbulb</span>
+			</div>
+			<div class="card__content">
+				<h1>Construindo um futuro, uma linha de codigo por vez!</h1>
+			</div>
+		</div>
+		
+		<!-- about me -->
+		<div class="card">
+			<div class="card__title">
+				<h2>Sobre mim</h2>
+				<span id="about_me" class="material-symbols-outlined" style="font-size: 24px; color: #3f3c92; cursor: pointer;">north_east</span>
+			</div>
+			<div class="card__content">
+				<p>
+					Olá, sou Guilherme, me reconheço como entusiasta em novas tecnologias do mercado, e autodidata aprendendo dia após dia.
+				</p>
+				<p>
+					Desenvolvedor Full Stack, focado na parte de Back End que uso para criar aplicações Web/Mobile de alto nível e valor. Tenho como objetivo para os próximos anos lapidar minhas habilidades e me aprofundar com estudos em IA.
+				</p>
+			</div>
+		</div>
+
+		<!-- name -->
+		<div class="card" style="text-align: center;">
+			<h3>Guilherme <span class="name_span">&lt;dev&gt;</span></h3>
+		</div>
+
+		<!-- avatar -->
+		<div class="card">
+			<div class="card__title">
+				<span class="material-symbols-outlined" style="font-style: 24px;">verified</span>
+			</div>
+			<div class="card__content">
+				<img src="style/img/avatar/Avatar-2-bg.png" alt="Avatar de Guilherme Carvalho" title="Gerado por Leonardo.IA" class="avatar_img">
+			</div>
+		</div>
+	</main>
+
+	<!-- scripts js -->
+	<script src="script/about.js" defer></script>
 </body>
 </html>
