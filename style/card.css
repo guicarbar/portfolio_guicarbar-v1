@@ -1,16 +1,4 @@
 /* temporario */
-:root {
-  --colorBg1: #19162a;
-  --colorBg2: #3f3c92;
-  --colorBg3: #2d2769;
-  --colorBg4: #55367a;
-  --colorBg5: #545c7c;
-
-  --colorBgCard: #4e4e4e85;
-
-  --fontTitle: 'Quantico';
-  --fontMain: "Space Mono", monospace;
-}
 
 
 /* global custons for cards */
@@ -39,3 +27,8 @@
   margin-bottom: 1em;
 }
 
+
+/* global card footer */
+.card__footer {
+  margin-top: 2em;
+}

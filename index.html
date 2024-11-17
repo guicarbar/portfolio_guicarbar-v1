@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- styles externos-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 	<!-- style -->
 	<link rel="stylesheet" href="style/main.css">
@@ -29,9 +29,9 @@
 		
 		<!-- about me -->
 		<div class="card">
-			<div class="card__title">
+			<div class="card__title" onclick="goContact(1)">
 				<h2>Sobre mim</h2>
-				<i class="bi bi-arrow-up-right"></i>
+				<i class="bi bi-arrow-up-right" style="cursor: pointer;"></i>
 			</div>
 			<div class="card__content">
 				<p>
@@ -45,7 +45,7 @@
 
 		<!-- name -->
 		<div class="card" style="text-align: center;">
-			<h3>Guilherme <span class="name_span">&lt;dev&gt;</span></h3>
+			<h3 onclick="goContact(2)">Guilherme <span class="name_span">&lt;dev&gt;</span></h3>
 		</div>
 
 		<!-- avatar -->
@@ -60,9 +60,108 @@
 
 		<!-- cv download -->
 		<div class="card resume">
-			<div class="card__title">
+			<div class="card__title" style="margin-bottom: 0em;">
 				<h2>Meu currículo</h2>
 				<i class="bi bi-download"></i>
+			</div>
+		</div>
+
+
+		<!-- contact me -->
+		<div class="card">
+			<div class="card__title contact__title" onclick="goContact(1)">
+				<p>Alguma pergunta?</p>
+				<i class="bi bi-arrow-up-right" style="cursor: pointer;"></i>
+			</div>
+			<div class="card__content contact">
+				<i class="bi bi-github" onclick="goContact(2)" title="Minha pagina no GitHUb"></i>
+				<i class="bi bi-linkedin" onclick="goContact(1)" title="Minha pagina no Linkedin"></i>
+			</div>
+			<div class="card__footer">
+				<h3>Entre em contato</h3>
+			</div>
+		</div>
+
+		<!-- projects -->
+		<div class="card">
+			<div class="card__title" onclick="goContact(2)">
+				<h2>Meus projetos</h2>
+				<i class="bi bi-arrow-up-right" style="cursor: pointer;"></i>
+			</div>
+			<div class="card__content projects__area">
+				<!-- project portfolio -->
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+
+				<!-- so pra teste por enquanto -->
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
+				<a href="#" class="project__card">
+					<span>
+						<i class="bi bi-file-text"></i>
+						<span class="text__project">Portfolio Website</span>
+					</span>
+					<i class="bi bi-link"></i>
+				</a>
 			</div>
 		</div>
 	</main>
