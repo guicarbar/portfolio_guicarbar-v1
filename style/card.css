@@ -39,12 +39,34 @@
 
 
 /* typical device breakpoints */
-@media only screen and (max-width: 600px) {
-
-}
-
 @media only screen and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .card {
+    width: 100%;
+  }
+
+  .card:nth-child(4) {
+    width: auto;
+  }
+
+  .card:nth-child(4)> div.card__content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card:nth-child(6) {
+    width: 35%;
+  }
+
+  .card:nth-child(7) {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
