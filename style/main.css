@@ -87,6 +87,12 @@ p {
 /* others */
 
 /* span of card de name */
+.box3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .name_span {
   font-family: var(--fontTitle);
 	font-size: 24px;
@@ -100,4 +106,205 @@ p {
 	height: 256px;
 }
 
+div.card:nth-child(4) > div.card__content {
+	display: flex;
+	justify-content: center;
+}
 
+.box1 {
+	order: 1;
+}
+
+.box2 {
+	order: 2;
+}
+
+.box3 {
+	order: 3;
+}
+
+.box4 {
+	order: 4;
+}
+
+.box5 {
+	order: 5;
+}
+
+.box6 {
+	order: 6;
+}
+
+.box7 {
+	order: 7;
+}
+
+.box8 {
+	order: 8;
+}
+
+.box9 {
+	order: 9;
+}
+
+
+/* typcal media querrys */
+@media only screen and (min-width: 768px) {
+	main {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	}
+
+	.box1, .box2, .box3, .box5, .box9 {
+		grid-column: span 2;
+	}
+
+	.box3 {
+		order: 4;
+	}
+	
+	.box4 {
+		order: 5;
+	}
+	
+	.box5 {
+		order: 3;
+	}
+	
+	.box6 {
+		order: 6;
+	}
+	
+	.box7 {
+		order: 7;
+	}
+	
+	.box8 {
+		order: 8;
+	}
+	
+	.box9 {
+		order: 9;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	
+}
+
+
+@media only screen and (min-width: 1024px) {
+	main {
+		margin: 2em 0em;
+	}
+
+	.box1, .box5 {
+		grid-column: span 1;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	body {
+		background-image: url(img/BG-H.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.box1 {
+		order: 1;
+		grid-column: span 2;
+	}
+	
+	.box2 {
+		order: 3;
+		grid-column: span 2;
+	}
+	
+	.box3 {
+		order: 8;
+		grid-column: span 2;
+	}
+	
+	.box4 {
+		order: 5;
+	}
+	
+	.box5 {
+		order: 9;
+		grid-column: span 2;
+	}
+	
+	.box6 {
+		order: 7;
+		grid-column: span 2;
+	}
+	
+	.box7 {
+		order: 4;
+	}
+	
+	.box8 {
+		order: 6;
+		grid-column: span 2;
+	}
+	
+	.box9 {
+		order: 2;
+	}
+}
+
+
+@media only screen and (min-width: 1920px) {
+	main {
+		max-width: 1400px;
+		margin: auto;
+	}
+
+	.box1 {
+		order: 1;
+		grid-column: span 2;
+	}
+	
+	.box2 {
+		order: 4;
+		grid-column: span 2;
+	}
+	
+	.box3 {
+		order: 2;
+		grid-column: span 1;
+	}
+	
+	.box4 {
+		order: 7;
+	}
+	
+	.box5 {
+		order: 3;
+		grid-column: span 1;
+	}
+
+	.box5 > div.card__title {
+		height: 100%;
+	}
+	
+	.box6 {
+		order: 8;
+		grid-column: span 2;
+	}
+	
+	.box7 {
+		order: 6;
+	}
+	
+	.box8 {
+		order: 5;
+		grid-column: span 2;
+	}
+	
+	.box9 {
+		order: 9;
+		grid-column: span 4;
+	}
+}

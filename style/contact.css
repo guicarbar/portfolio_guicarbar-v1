@@ -14,3 +14,29 @@
 	width: 50%;
 	text-indent: 0em;
 }
+
+
+/* typcal media querrys */
+@media only screen and (min-width: 768px) {
+	.contact {
+		height: 60%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.contact {
+		height: 50%;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.contact {
+		height: 30%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.contact {
+		height: 55%;
+	}
+}
