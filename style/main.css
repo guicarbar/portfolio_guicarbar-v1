@@ -104,6 +104,12 @@ p {
 	border-radius: 50%;
 	width: 256px;
 	height: 256px;
+	transition: all 0.3s ease;
+}
+
+.avatar_img:hover {
+	box-shadow: 0px 0px 10px var(--colorBgCard2);
+  transform: scale(1.05);
 }
 
 div.card:nth-child(4) > div.card__content {
@@ -247,13 +253,6 @@ div.card:nth-child(4) > div.card__content {
 }
 
 @media only screen and (min-width: 1280px) {
-	body {
-		background-image: url(img/BG-H.jpg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
 	.box1 {
 		order: 1;
 		grid-column: span 2;
@@ -278,6 +277,10 @@ div.card:nth-child(4) > div.card__content {
 		grid-column: span 2;
 	}
 	
+	.box5 > div.card__title {
+		height: 100%;
+	}
+
 	.box6 {
 		order: 7;
 		grid-column: span 2;
@@ -293,7 +296,7 @@ div.card:nth-child(4) > div.card__content {
 	}
 	
 	.box9 {
-		order: 2;
+		order: 9;
 	}
 }
 

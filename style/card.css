@@ -1,5 +1,18 @@
 /* temporario */
+:root {
+	--colorBgCard: #4e4e4e85;
+	--colorBgCard2: #969696d7;
 
+	--colorBgMobile: #2e2c2c;
+
+	--colorWhite: #ffffff;
+	--colorBlack: #00030c;
+
+	--colorText: #cacaca;
+
+	--fontTitle: 'Quantico';
+	--fontMain: "Space Mono", monospace;
+}
 
 /* global custons for cards */
 .card {
@@ -7,6 +20,12 @@
   padding: 1em;
   background-color: var(--colorBgCard);
   border-radius: 24px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px var(--colorBgCard2);
+  transform: scale(1.03);
 }
 
 .card:first-child {

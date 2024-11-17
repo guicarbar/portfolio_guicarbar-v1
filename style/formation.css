@@ -8,6 +8,12 @@
 	justify-content: space-between;
 	align-items: center;
 	gap: 1em;
+	transition: all 0.3s ease;
+}
+
+.formation__card:hover {
+	box-shadow: 0px 0px 10px var(--colorBgCard2);
+  transform: scale(1.01);
 }
 
 .formation__card>img {
