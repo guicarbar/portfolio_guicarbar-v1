@@ -70,7 +70,13 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .card:nth-child(5) {
+    width: 50%;
+  }
 
+  .card:nth-child(8), .card:nth-child(9) {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
