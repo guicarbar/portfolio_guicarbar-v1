@@ -13,6 +13,10 @@
   margin-top: 3em;
 }
 
+.card:last-child {
+  margin-bottom: 3em;
+}
+
 
 /* global cards tittle */
 .card__title {
