@@ -7,7 +7,10 @@
 /* imports intenals */
 
 @import url(card.css);
-
+@import url(download.css);
+@import url(contact.css);
+@import url(projects.css);
+@import url(skills.css);
 
 /* roots var */
 :root {
@@ -99,113 +102,4 @@ p {
 /* avatar */
 .avatar_img {
 	border-radius: 50%;
-}
-
-
-/* cv download */
-.resume {
-	background-color: var(--colorBgCard2);
-	padding: 2em;
-}
-
-.resume>div {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-
-/* contact area */
-.contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 2em;
-}
-
-.contact>i {
-	font-size: 40px;
-}
-
-.contact__title>p {
-	width: 50%;
-	text-indent: 0em;
-}
-
-
-/* projects area */
-.projects__area {
-	max-height: 40vh;
-	overflow-y: auto;
-}
-
-.project__card {
-	margin-bottom: 0.8em;
-	padding: 0.5em 0.8em;
-	border-radius: 8px;
-	text-decoration: none;
-	background-color: var(--colorBgMobile);
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-}
-
-.text__project {
-	font-weight: 700;
-	white-space: nowrap;
-	overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
-/* habilidades */
-
-.skills_area {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	gap: 1em;
-}
-
-.icons__svg {
-	width: 48px;
-	height: 48px;
-}
-
-
-/* formation area */
-.formation__card {
-	background-color: var(--colorBgMobile);
-	border-radius: 8px;
-	padding: 0.5em 0.8em;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
-	gap: 1em;
-}
-
-.formation__card>img {
-	width: 48px;
-	height: 48px;
-}
-
-.formation__card>div>p {
-	text-indent: 0em;
-	font-weight: 700;
-	margin: 0;
-}
-
-.formation__card>div>p:first-child {
-	margin-bottom: 0.5em;
-}
-
-.logo {
-	border-radius: 16px;
-}
-
-
-/* link fake */
-.link__fake {
-	display: none;
 }

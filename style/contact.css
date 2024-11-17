@@ -1,0 +1,16 @@
+/* contact area */
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.contact>i {
+	font-size: 40px;
+}
+
+.contact__title>p {
+	width: 50%;
+	text-indent: 0em;
+}

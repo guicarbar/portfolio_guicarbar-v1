@@ -1,0 +1,23 @@
+/* projects area */
+.projects__area {
+	max-height: 40vh;
+	overflow-y: auto;
+}
+
+.project__card {
+	margin-bottom: 0.8em;
+	padding: 0.5em 0.8em;
+	border-radius: 8px;
+	text-decoration: none;
+	background-color: var(--colorBgMobile);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.text__project {
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}

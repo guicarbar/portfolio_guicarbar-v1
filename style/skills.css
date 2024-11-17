@@ -1,0 +1,13 @@
+/* habilidades */
+
+.skills_area {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 1em;
+}
+
+.icons__svg {
+	width: 48px;
+	height: 48px;
+}
