@@ -189,7 +189,50 @@ div.card:nth-child(4) > div.card__content {
 }
 
 @media only screen and (min-width: 960px) {
+	main {
+		margin-top: 2em;
+	}
+
+	.box1 {
+		order: 1;
+		grid-column: span 1;
+	}
 	
+	.box2 {
+		order: 3;
+	}
+	
+	.box3 {
+		order: 5;
+	}
+	
+	.box4 {
+		order: 4;
+	}
+	
+	.box5 {
+		order: 6;
+		grid-column: span 1;
+	}
+	
+	.box6 {
+		order: 6;
+	}
+	
+	.box7 {
+		order: 7;
+		grid-column: span 2;
+	}
+	
+	.box8 {
+		order: 2;
+		grid-column: span 2;
+	}
+	
+	.box9 {
+		order: 9;
+		grid-column: span 3;
+	}
 }
 
 

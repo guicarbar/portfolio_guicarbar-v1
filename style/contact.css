@@ -23,6 +23,12 @@
 	}
 }
 
+@media only screen and (min-width: 960px) {
+	.contact {
+		height: 25%;
+	}
+}
+
 @media only screen and (min-width: 1024px) {
 	.contact {
 		height: 50%;

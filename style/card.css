@@ -39,6 +39,13 @@
 
 
 /* typcal media querrys */
+@media only screen and (min-width: 960px) {
+  .card:first-child {
+    margin-top: 1em;
+  }
+}
+
+
 @media only screen and (min-width: 1024px) {
   .card:first-child {
     margin-top: 1em;
