@@ -11,25 +11,3 @@
 	width: 48px;
 	height: 48px;
 }
-
-
-/* typical device breakpoints */
-@media only screen and (min-width: 600px) {
-	.skills_area {
-		padding: 1em 5em;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.skills_area {
-		padding: 0em;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-}
