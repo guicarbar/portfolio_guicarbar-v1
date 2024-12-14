@@ -1,4 +1,4 @@
-🟢 🟡 🔴
+🟢🟡🔴
 
 # 💼 Portfolio_Guilherme  
 
